@@ -52,3 +52,16 @@ section {
         font-family: $font-span;
     }
 }
+
+// Footer
+
+.page-footer {
+    margin: 0;
+    background-color: $color-third;
+    color: $color-light;
+    text-align: center;
+    padding: 5px;
+    p {
+        margin: 0;
+    }
+}

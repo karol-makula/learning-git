@@ -37,4 +37,16 @@ section {
 .text-song p span {
   font-family: "Montserrat", sans-serif;
 }
+
+.page-footer {
+  margin: 0;
+  background-color: #35353B;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+.page-footer p {
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
