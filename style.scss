@@ -6,3 +6,14 @@ $color-light: #fff;
 $font-header: 'Signika', sans-serif;
 $font-text: 'Inconsolata', monospace;
 $font-span: 'Montserrat', sans-serif;
+
+// Global
+
+body {
+    margin: 0px;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: left;
+    font-family: $font-text;
+    background-color: $color-first;
+}
