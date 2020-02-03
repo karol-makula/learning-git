@@ -6,4 +6,20 @@ body {
   font-family: "Inconsolata", monospace;
   background-color: #636e72;
 }
+
+header {
+  background-color: #b2bec3;
+  text-align: center;
+  padding: 5px;
+}
+
+header h1 {
+  font-family: "Signika", sans-serif;
+  font-size: 60px;
+  font-style: italic;
+}
+
+header h2 {
+  font-family: "Signika", sans-serif;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 // Variables
 $color-first: #636e72;
-$color-second: #dfe6e9;
+$color-second: #b2bec3;
 $color-third: #35353B;
 $color-light: #fff;
 $font-header: 'Signika', sans-serif;
@@ -16,4 +16,20 @@ body {
     text-align: left;
     font-family: $font-text;
     background-color: $color-first;
+}
+
+// Header
+
+header {
+    background-color: $color-second;
+    text-align: center;
+    padding: 5px;
+    h1 {
+        font-family: $font-header;
+        font-size: 60px;
+        font-style: italic;
+    }
+    h2 {
+        font-family: $font-header;
+    }
 }
