@@ -18,6 +18,17 @@ body {
     background-color: $color-first;
 }
 
+section {
+    padding: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: $color-second;
+    padding: 20px;
+}
+
 // Header
 
 header {
