@@ -18,19 +18,19 @@ section {
   padding: 20px;
 }
 
-header {
+.splash {
   background-color: #b2bec3;
   text-align: center;
   padding: 5px;
 }
 
-header h1 {
+.splash h1 {
   font-family: "Signika", sans-serif;
   font-size: 60px;
   font-style: italic;
 }
 
-header h2 {
+.splash h2 {
   font-family: "Signika", sans-serif;
 }
 
