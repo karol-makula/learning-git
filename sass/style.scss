@@ -1,8 +1,7 @@
 // Variables
-$color-first: #636e72;
-$color-second: #b2bec3;
-$color-third: #35353B;
-$color-light: #fff;
+$color-first: #edc7b7;
+$color-second: #eee2dc;;
+$color-third: #bab2b5;
 $font-header: 'Signika', sans-serif;
 $font-text: 'Inconsolata', monospace;
 $font-span: 'Montserrat', sans-serif;
@@ -58,7 +57,6 @@ section {
 .page-footer {
     margin: 0;
     background-color: $color-third;
-    color: $color-light;
     text-align: center;
     padding: 5px;
     p {
