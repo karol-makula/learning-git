@@ -39,3 +39,38 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* Splash */
+
+.splash {
+    background-image: url("/learning-git/img/diego-cieza-tenishius-d.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    h1 {
+        margin: 0;
+        font-family: $font-header;
+        background: linear-gradient(to right, $color-one, $color-two, $color-one);
+        background-size: 200% 200%;
+        animation: rainbow 2s ease-in-out infinite;
+        background-clip: text;
+        -webkit-background-clip:text;
+        transition: color .2s ease-in-out;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        color: $color-light;
+        text-transform: uppercase;
+        &:hover {
+            color:rgba(0,0,0,0);
+        }
+        @keyframes rainbow { 
+            0%{background-position:left}
+            50%{background-position:right}
+            100%{background-position:left}
+          }
+    }
+}
