@@ -74,3 +74,46 @@ section {
           }
     }
 }
+
+/* Band */
+
+.band {
+    padding: 0;
+    background-image: url('/learning-git/img/Tenacious-D-debut.jpg'); 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: '';
+        background: rgba($color-dark, 0.7);
+        width: 100%;
+        height: 100%;
+        left: 0;
+    }
+    .menu {
+        flex: 0 0 20%;
+        padding: 30px;
+        color: $color-light;
+        z-index: 1;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            li {
+                padding: 10px 0;
+                a {
+                    font-family: $font-menu;
+                    color: $color-light;
+                    text-decoration: none;
+                    font-size: 40px;
+                    text-shadow: 2px 2px $color-one;
+                    &:hover {
+                        color: $color-three;
+                        text-shadow: 3px 3px $color-one;
+                    }
+                }
+            }
+        }
+    }
+}
