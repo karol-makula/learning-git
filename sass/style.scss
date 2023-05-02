@@ -116,4 +116,13 @@ section {
             }
         }
     }
+    .song-lyrics {
+        z-index: 1;
+        flex: 0 0 80%;
+        padding: 35px;
+        p {
+            color: $color-light;
+            text-shadow: 2px 2px $color-one;
+        }
+    }
 }

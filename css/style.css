@@ -143,3 +143,16 @@ section {
   color: #ced6e0;
   text-shadow: 3px 3px #000;
 }
+
+.band .song-lyrics {
+  z-index: 1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+  padding: 35px;
+}
+
+.band .song-lyrics p {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
