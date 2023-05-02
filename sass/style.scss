@@ -1,0 +1,41 @@
+/* Variables */
+
+$font-text: 'Kalam', cursive;
+$font-menu: 'Shadows Into Light', cursive;
+$font-header: 'Permanent Marker', cursive;
+$color-one: #000;
+$color-two: #ff0000;
+$color-three: #ced6e0;
+$color-dark: #3d3d3d;
+$color-light: #fff;
+
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.7;
+    text-align: center;
+    color: $color-dark;
+    font-family: $font-text;
+}
+
+.container {
+    max-width: 1840px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
