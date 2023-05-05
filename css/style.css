@@ -37,7 +37,7 @@ section {
 
 /* Splash */
 .splash {
-  background-image: url("//D:/Projekty/learning-git/img/diego-cieza-tenishius-d.jpg");
+  background-image: url("/learning-git/img/diego-cieza-tenishius-d.jpg");
   height: 100vh;
   background-position: center center;
   background-size: cover;
@@ -97,7 +97,7 @@ section {
 /* Band */
 .band {
   padding: 0;
-  background-image: url("//D:/Projekty/learning-git/img/Tenacious-D-debut.jpg");
+  background-image: url("/learning-git/img/Tenacious-D-debut.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
